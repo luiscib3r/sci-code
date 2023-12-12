@@ -1,4 +1,5 @@
 site_name: Sci, Math && Code
+site_description: A simple blog about Computer Science.
 
 theme:
   name: material
@@ -17,4 +18,3 @@ plugins:
       blog_toc: true
   - search
   - tags
-  - mkdocs-jupyter
