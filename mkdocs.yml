@@ -1,0 +1,20 @@
+site_name: Sci, Math && Code
+
+theme:
+  name: material
+  language: en
+  palette:
+    primary: teal
+    accent: deep orange
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - blog:
+      blog_dir: .
+      post_dir: "{blog}/articles"
+      blog_toc: true
+  - search
+  - tags
+  - mkdocs-jupyter
