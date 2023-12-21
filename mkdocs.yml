@@ -14,7 +14,7 @@ extra_css:
 plugins:
   - blog:
       blog_dir: .
-      post_dir: "{blog}/articles"
+      post_dir: '{blog}/articles'
       blog_toc: true
   - search
   - tags
